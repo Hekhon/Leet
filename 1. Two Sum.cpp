@@ -8,7 +8,7 @@ public:
             if(m.count(k-nums[i])){
                 return {m[k-nums[i]],i};
             }
-            m[nums[i]]=i+1;
+            m[nums[i]]=i;
         }
         return {0};
     }
